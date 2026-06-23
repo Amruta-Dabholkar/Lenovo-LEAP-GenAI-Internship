@@ -82,16 +82,47 @@ Used the techniques above on a real-world task — generated 10 short, social-me
 ## 💡 Key Takeaway
 The same question can produce drastically different value depending on *how* it's framed. Examples, role, perspective, constraints, and structure are all levers that shape an LLM's output quality — prompting is a skill, not a guess.
 
-# 📅 Day 3: Building an Automated Project Planning Agentic Workflow with n8n!
--   **Goal:** Create an autonomous agent that takes a raw user request from a chat interface and instantly transforms it into a fully mapped-out, dynamic project plan assigned to real team members!
--   **Tools & Technologies:** `n8n`, `OpenAI Chat Model`, `Structured Output Parser`, `Google Sheets`
--   **Workflow Architecture:**
-    1.  **The Trigger:** Captures incoming user messages via chat (e.g., *"I want to build a website for my business"*).
-    2.  **Context Retrieval:** Dynamically pulls active team data (roles, names, departments) from a centralized Google Sheet.
-    3.  **Data Aggregation:** Packages the context data cleanly and feeds it into the AI orchestrator.
-    4.  **The Core Agentic Layer (Planner Agent):** Uses an OpenAI Chat Model combined with a Structured Output Parser to autonomously break the request down into ordered project milestones—complete with owners, start/end dates, priorities, and descriptions.
-    5.  **Data Transformation & Output:** Splits the structured array and instantly appends individual task rows back into a centralized master tracking sheet (`Amruta_AI task tracker`).
+## Day 3 – Automated Project Planning Agentic Workflow with n8n 🤖📋
 
-## 💡 **Key Takeaway:** The real magic isn't just getting a smart response from the LLM—it's the data transformation. Forcing the AI to adhere strictly to a JSON schema via the Structured Output Parser is what makes it reliable enough to programmatically update a database or sheet without breaking.
+**Lenovo LEAP: GenAI & Agentic Systems Engineering Internship | AICTE**
+
+### 🗂️ Overview
+
+On Day 3 of the internship, I transitioned from simple automations to engineering a highly dynamic, multi-stage AI Agent Workflow using **n8n**, **OpenAI**, and **Google Sheets** — an autonomous agent that takes a raw user request and instantly transforms it into a fully mapped-out, dynamic project plan assigned to real team members.
+
+---
+
+### 🔨 What I Built
+
+An AI-powered autonomous project planning agent that:
+
+- 📥 **Receives** a raw user request via chat (e.g., *"I want to build a website for my business"*)
+- 📊 **Retrieves** active team data dynamically from a Google Sheet (roles, names, departments)
+- 🧠 **Aggregates** the list of items and feeds them into the AI layer
+- 🗂️ **Plans** the project using an OpenAI-powered Planner Agent with a Structured Output Parser — breaking the request into clear, ordered milestones with owners, start/end dates, priorities, and descriptions
+- 📝 **Writes** the structured task array back into a centralized master tracking sheet (task tracker) as individual task rows
+
+---
+
+### 🛠️ Tools Used
+
+| Tool | Role |
+|------|------|
+| n8n | Workflow orchestration & multi-stage agent automation |
+| OpenAI (Chat Model) | Core Agentic Layer — Planner Agent for project breakdown |
+| Google Sheets | Source of team data + destination master task tracker |
+| Structured Output Parser | Enforces strict JSON schema for reliable data transformation |
+
+---
+
+### 🤖 Why This Counts as "Agentic AI"
+
+This workflow goes beyond a single prompt-response — it **perceives** (reads team data), **reasons** (plans the full project with assignments), and **acts** (writes structured output back to a live sheet) end-to-end without human intervention. The multi-stage orchestration with a dedicated Planner Agent mirrors real-world agentic system design patterns.
+
+---
+
+### 💡 Key Takeaway
+
+The real magic isn't just getting a smart response from the LLM — it's the **data transformation**. Forcing the AI to adhere strictly to a JSON schema via the Structured Output Parser is what makes it reliable enough to programmatically update a database or sheet without breaking. Agentic systems are fundamentally shifting how we think about automation and project management.
 
 📁 *Screenshots for each technique are available in the `/screenshots` folder of this repo.*
