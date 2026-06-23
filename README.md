@@ -82,10 +82,10 @@ Used the techniques above on a real-world task — generated 10 short, social-me
 ## 💡 Key Takeaway
 The same question can produce drastically different value depending on *how* it's framed. Examples, role, perspective, constraints, and structure are all levers that shape an LLM's output quality — prompting is a skill, not a guess.
 
-### 📅 Day 3: Building an Automated Project Planning Agentic Workflow with n8n!
-*   **Goal:** Create an autonomous agent that takes a raw user request from a chat interface and instantly transforms it into a fully mapped-out, dynamic project plan assigned to real team members!
-*   **Tools & Technologies:** `n8n`, `OpenAI Chat Model`, `Structured Output Parser`, `Google Sheets`
-*   **Workflow Architecture:**
+# 📅 Day 3: Building an Automated Project Planning Agentic Workflow with n8n!
+-   **Goal:** Create an autonomous agent that takes a raw user request from a chat interface and instantly transforms it into a fully mapped-out, dynamic project plan assigned to real team members!
+-   **Tools & Technologies:** `n8n`, `OpenAI Chat Model`, `Structured Output Parser`, `Google Sheets`
+-   **Workflow Architecture:**
     1.  **The Trigger:** Captures incoming user messages via chat (e.g., *"I want to build a website for my business"*).
     2.  **Context Retrieval:** Dynamically pulls active team data (roles, names, departments) from a centralized Google Sheet.
     3.  **Data Aggregation:** Packages the context data cleanly and feeds it into the AI orchestrator.
