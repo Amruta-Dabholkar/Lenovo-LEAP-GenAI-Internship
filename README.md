@@ -125,4 +125,32 @@ This workflow goes beyond a single prompt-response — it **perceives** (reads t
 
 The real magic isn't just getting a smart response from the LLM — it's the **data transformation**. Forcing the AI to adhere strictly to a JSON schema via the Structured Output Parser is what makes it reliable enough to programmatically update a database or sheet without breaking. Agentic systems are fundamentally shifting how we think about automation and project management.
 
+## 🗓️ Day 4 — Generative AI & Agentic Systems
+
+### 🚀 What I Built
+An **AI-powered automated email reminder system** using n8n that reads task data from Google Sheets, processes it through an AI Agent, and sends personalized reminder emails via Gmail — fully automated, no manual work needed.
+
+### 🔁 Workflow
+Schedule Trigger → Get Rows (Google Sheets) → Filter → AI Agent (OpenAI) → Send Email (Gmail) → Log (Google Sheets)
+
+### 🛠️ Tools & Technologies
+- **n8n** — Workflow automation
+- **Google Sheets** — Live task data source
+- **OpenAI GPT** — AI Agent for email generation
+- **Gmail** — Email delivery
+
+### 💡 Key Learnings
+- What Agentic AI means in practice
+- How to connect multiple services in one automated workflow
+- How AI can generate context-aware personalized messages at scale
+
+### 📸 Screenshots
+| n8n Workflow | AI Agent Config |
+|---|---|
+| ![workflow](DAY%204/screenshots/n8n%20workflow.png) | ![agent](DAY%204/screenshots/AI%20Agent%20config.png) |
+
+| Google Sheets Log | AI Generated Email |
+|---|---|
+| ![sheets](DAY%204/screenshots/Google%20Sheets%20log.png) | ![email](DAY%204/screenshots/AI-generated%20email.png) |
+
 📁 *Screenshots for each technique are available in the `/screenshots` folder of this repo.*
