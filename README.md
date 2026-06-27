@@ -153,4 +153,62 @@ Schedule Trigger → Get Rows (Google Sheets) → Filter → AI Agent (OpenAI) �
 |---|---|
 | ![sheets](DAY%204/screenshots/Google%20Sheets%20log.png) | ![email](DAY%204/screenshots/AI-generated%20email.png) |
 
+# Day 5 – Vibe Coding, Netflix Clone & LLM Tokenization 🎨💰🔤
+
+**Lenovo LEAP: GenAI & Agentic Systems Engineering Internship | AICTE**
+
+## 📅 Overview
+On Day 5, the focus shifted to **vibe coding** — using AI tools to build and deploy real applications through prompt engineering alone, without writing code manually. We also explored how LLMs process text under the hood via tokenization.
+
+---
+
+## 🔨 What I Built
+
+### 🎨 Netflix UI Clone (via Gemini Prompt Engineering)
+Prompted **Google Gemini** to generate a full Netflix-style UI from scratch:
+- Hero banner with featured show & description
+- Trending Now row with image cards
+- Popular on Netflix section
+- Feedback form & FAQ accordion
+
+> No manual HTML/CSS written — pure prompt engineering output.
+
+### 💰 SpendSmart — Full-Stack Expense Tracker (Replit Agent)
+Used **Replit Agent** with vibe coding to build and deploy a complete full-stack web app:
+
+| Feature | Description |
+|---|---|
+| **Dashboard** | Net Balance, Income, Expenses & Savings overview with Cash Flow chart |
+| **Transactions** | Full list with search, type filters, and add/edit/delete support |
+| **Savings Goals** | Progress bars for each goal; PS5 Console gets a dedicated highlight card |
+| **EMI Calculator** | Enter principal, rate & tenure → get monthly EMI + full amortization schedule |
+
+🔗 **Live App:** https://money-tracker-plus--ce24f007.replit.app/
+
+> Pre-loaded with sample data (salary, rent, groceries, savings, PS5 contributions) so you can explore right away.
+
+---
+
+## 🔤 LLM Tokenization
+Explored how large language models process text using the **OpenAI Tokenizer**:
+- Tested with GPT-5.x & O1/3 model tab
+- Observed how common words, long words, numbers & symbols tokenize differently
+- Result: 52 tokens / 225 characters for a sample paragraph
+
+> Key insight: 1 token ≈ 4 characters for common English text. Understanding tokens is essential for writing cost-efficient prompts and staying within context limits.
+
+---
+
+## 🛠️ Tools Used
+| Tool | Role |
+|---|---|
+| **Google Gemini** | Generated Netflix UI clone via prompt engineering |
+| **Replit Agent** | Built & deployed SpendSmart full-stack app via vibe coding |
+| **OpenAI Tokenizer** | Visualized how LLMs break text into tokens |
+
+---
+
+## 💡 Key Takeaway
+The real skill today wasn't coding — it was knowing **how to prompt AI tools** to build exactly what you want. Vibe coding is reshaping what's possible. From idea to deployed app in minutes — that's the future of building.
+
 📁 *Screenshots for each technique are available in the `/screenshots` folder of this repo.*
