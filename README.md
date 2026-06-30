@@ -211,4 +211,45 @@ Explored how large language models process text using the **OpenAI Tokenizer**:
 ## 💡 Key Takeaway
 The real skill today wasn't coding — it was knowing **how to prompt AI tools** to build exactly what you want. Vibe coding is reshaping what's possible. From idea to deployed app in minutes — that's the future of building.
 
+## 🗓️ Day 6 — Business Modeling with Lean Canvas 🧩💡
+
+**Lenovo LEAP: GenAI & Agentic Systems Engineering Internship | AICTE**
+
+### 📅 Overview
+On Day 6, the focus shifted from building technical workflows to evaluating an idea's **business viability**. Using the **Lean Canvas** framework, I mapped out a complete business model for an AI-powered healthcare agent — translating a technical concept into a structured, investor-ready plan.
+
+### 🩺 The Idea: AI Agent for Elderly & Chronic Illness Care
+An AI Agent designed to support elderly patients and people managing chronic illness by:
+- 💊 Monitoring medication status
+- 📞 Conducting reminder calls
+- 📅 Booking appointments
+- 👨‍👩‍👧 Notifying caregivers
+- 📋 Maintaining patient records
+
+Available 24/7, with local language support, personalized care, and automatic emergency triggers.
+
+### 🧩 Lean Canvas Breakdown
+
+| Block | Key Points |
+|---|---|
+| **Problem** | Missed medicines, no health tracking, low doctor accessibility |
+| **Existing Alternatives** | Healthify, phone alarms, paper records, family reminders |
+| **Solution** | AI Agent that monitors, reminds, books, notifies, and records |
+| **Unique Value Proposition** | Automatic emergency trigger + timely patient status quiz; 24/7, local language, personalized, time-saving |
+| **Unfair Advantage** | Regional language AI, proprietary healthcare knowledge, hospital partnerships, personalized patient history, autonomous decision-making |
+| **Customer Segments** | Elderly patients, chronic illness patients, clinics, hospitals, family members, NGOs |
+| **Early Adopters** | Family members/relatives, friends, known hospitals or NGOs |
+| **Key Metrics** | Daily active users, medication adherence rate, appointment completion rate, user retention, customer satisfaction, downloads |
+| **Channels** | Hospitals, clinics, government health centers, mobile apps, WhatsApp |
+| **Cost Structure** | AI model/API usage, cloud infrastructure & hosting, software development, customer support, marketing, operations, salary |
+| **Revenue Streams** | Monthly subscriptions, hospital licensing, advertisement, NGO partnerships, government schemes |
+
+### 🛠️ Tools Used
+| Tool | Role |
+|---|---|
+| **Lean Canvas (Miro/Canva)** | Structured framework for mapping business opportunities and risks |
+
+### 💡 Key Takeaway
+Great technology alone isn't enough — a sustainable product needs a clear problem-solution fit, a defensible advantage, and a viable revenue model. The Lean Canvas forced me to think beyond "can we build it" to "should we build it, for whom, and how does it sustain itself." Today connected the dots between agentic AI engineering and real-world product thinking.
+
 📁 *Screenshots for each technique are available in the `/screenshots` folder of this repo.*
